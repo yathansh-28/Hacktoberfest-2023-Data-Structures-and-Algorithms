@@ -1,0 +1,54 @@
+
+class Solution
+{
+    int sol(int n, int a[],int i,int v){
+        
+        if(i==n){return 0;}
+        int in =0;
+        if(a[i]>v){
+            in = 1 + sol(n,a,i+1,a[i]);
+        }
+        int ex = sol(n,a,i+1,v);
+        return max(in,ex);
+    }
+    
+    int sol1(int n,vector<int>&a,int i,int v,vector<vector<int>>& help){
+        
+        if(i==n){return 0;}
+        if(help[i][v+1]!=-1)return help[i][v+1];
+        int in =0;
+        if(a[i]>v){
+            in = 1 + sol1(n,a,i+1,a[i],help);
+        }
+        int ex = sol1(n,a,i+1,v,help);
+        return help[i][v+1] = max(in,ex);
+    }
+    
+    int sol_binary(int n, int a[]){
+        vector<int> ans;
+        ans.push_back(a[0]);
+        
+        for(int i=1;i<n;i++){
+            
+        }
+        
+        
+    }
+    
+    
+    public:
+    //Function to find length of longest increasing subsequence.
+    int longestSubsequence(int n, int a[])
+    {
+    //  return sol(n,a,0,-1);
+    
+    // vector<int> b(n) ;
+    // for(int i =0;i<n;i++)b[i]=a[i];
+    // vector<vector<int>> help(n+1,vector<int>(1e6+2,-1));
+    // return sol1(n,b,0,-1,help);
+    
+    return sol_binary(n,a);
+    
+    
+    }
+};
