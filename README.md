@@ -4,7 +4,7 @@ You can also include major problems from codechef, hackerrank, leetcode, intervi
 
 # How to contribute:
 <li>Find the folder that fits the category of your code and submit a PR.</li>
-<li>Star this repo if the information here is useful to you.</li>
+<li>Follow me if the information here is useful to you and if you want fast acceptance .</li>
 
 # Contributing Guidelines :
 Thanks for taking the time to contribute to this project. Before making PRs, please note the following:
@@ -18,20 +18,7 @@ Thanks for taking the time to contribute to this project. Before making PRs, ple
 - If you will follow all the guidelines while contributing I'll be merging all your changes into the master branch of this project.
 - Mention your name in form of a comment inside your code. 
 
-<h2>Hacktoberfest-2k21 bash</h2>
-<p>Do you have a solution for a problem which isn't already present? Want to complete four PRs for Hacktoberbest-2k21. Send a PR of your solution in any programming language.</p>
-<h5><a href="https://hacktoberfest.digitalocean.com/">Check your current hacktoberfest progress</a></h5>
-
-<h3>Learning resources</h3>
-<h5><a href="https://try.github.io">Learn Git basics.</a></h5>
-<h5><a href="https://learn.co/lessons/github-pull-request-basics">Creating a pull request.</a></h5>
- 
-## Contact
-
-> Let's Connect
-
-- [Github](https://github.com/Anishukla)
-- [Linkedin](https://www.linkedin.com/in/shuklanish)
-- [Twitter](https://twitter.com/ShuklAnish_)
+<h2>Hacktoberfest-2k23 bash</h2>
+<p>Do you have a solution for a problem which isn't already present? Want to complete four PRs for Hacktoberbest-2k23. Send a PR of your solution in any programming language.</p>
 
 **Keep On Exploring Open Source and Happy Learning!**
